@@ -1,5 +1,6 @@
 import Counter from "./Components/Counter";
 import Todo from "./Components/Todo";
+import Weather from "./Components/Weather";
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
      <Todo/>
      <Counter/>
+     <Weather/>
     </div>
   );
 };
